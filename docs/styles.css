@@ -113,6 +113,7 @@ nav {
     border-radius: 5px;
     overflow: hidden;
     margin-left: 418px;
+    font-family: ContFont;
 }
 
 .tabs li {
