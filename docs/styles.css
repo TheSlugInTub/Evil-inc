@@ -283,12 +283,12 @@ hr.rounded {
 }
 
 /* Style for the form */
-#join-form {
+.join-form {
     text-align: center;
     margin: 20px 0;
 }
 
-#join-message {
+.join-message {
     width: 80%;
     padding: 10px;
     font-size: 16px;
@@ -296,7 +296,7 @@ hr.rounded {
     border: 1px solid #ccc;
 }
 
-#send-button {
+.send-button {
     padding: 10px 20px;
     background-color: #5c3d2a;
     color: #fff;
@@ -306,11 +306,11 @@ hr.rounded {
     cursor: pointer;
 }
 
-#send-button:hover {
+.send-button:hover {
     background-color: #0056b3;
 }
 
-#form-response {
+.form-response {
     margin-top: 20px;
     font-size: 18px;
 }
