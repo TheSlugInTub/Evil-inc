@@ -80,6 +80,7 @@ a {
     color: white;
 }
 
+/* Update the header-container */
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -101,18 +102,18 @@ a {
     margin-right: auto;
 }
 
+/* Align the tabs to the right */
 nav {
+    margin-left: auto; /* Push the nav to the right */
     display: flex;
-    justify-content: center;
-    flex-grow: 1; /* Ensure nav takes up remaining space */
+    justify-content: flex-end;
 }
 
+/* Keep the tabs style as it is */
 .tabs {
     display: flex;
     background-color: #333; /* Background color for tabs */
     border-radius: 5px;
-    overflow: hidden;
-    margin-left: 418px;
     font-family: ContFont;
 }
 
