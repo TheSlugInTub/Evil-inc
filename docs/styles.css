@@ -281,3 +281,37 @@ hr.rounded {
     text-align: center;
     font-size: 17px;
 }
+
+/* Style for the form */
+#join-form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#join-message {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #5c3d2a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
+
+#form-response {
+    margin-top: 20px;
+    font-size: 18px;
+}
+

@@ -23,16 +23,21 @@
     <main>
         <div id="content-area">
             <div class="page-title">
-                <h1 style="font-size: 28px;">Evil Inc.</h1>
+                <h1 style="font-size: 28px;">Join us</h1>
             </div>
 
-            <p>Dedicated to all that is evil.</p>
-            <h1>About us</h1>
-            <p>We are an organization striving to make the world, a worse place. We release software and plans to control the general populace. 
-            <br> We aim to get our grubby hands into other corporations and things you own to make sure our evil message comes across.</p>
-            <h1>Join us</h1>
-            <p>You can join the noble cause by submitting a request in the 'Join' page.</p>
+            <p>Please put contact information and a properly EVIL motive.</p>
+            
+            <form id="join-form">
+                <textarea id="join-message" name="message" rows="5" cols="40" placeholder="Explain your evil plans here..."></textarea><br><br>
+
+                <button type="button" id="send-button">Send</button>
+            </form>
+
+            <p id="form-response" style="color: white;"></p>
         </div>
     </main>
+
+    <script src="join.js"></script>
 </body>
 </html>
